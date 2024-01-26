@@ -1,0 +1,590 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    margin: 20px;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+.pt20{
+    padding-top: 20px;
+}
+/*BACKGROUND AND NAV CONTNET*/
+.bg-and-its-content{
+    background-image: url(https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/5527a395e02754bb57746389_slider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95.5vh;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    max-width: 2000px;
+    margin: auto;
+    padding: 15px 0px;
+}
+.logo{
+    text-decoration: none;
+}
+.logo img{
+    max-width: 60px;
+    margin-right: 70px;
+}
+.nav-item{
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 13px;
+}
+/*mid content*/
+.mid-content{
+    margin-top: 170px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+.mid-content h1{
+    font-size: 56px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: -3px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 56px;
+}
+.mid-content h4{
+    font-family: 'Vollkorn', serif;
+    color: white;
+    font-style: 17px;
+    font-weight: 400;
+}
+/* 4 SQUARE BOX CODE DOWN*/
+.info-graphics{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+.graphic{
+    width: 50%;
+    min-height: 100%;
+}
+.graphic img{
+    max-width: 100%;
+    min-height: 100%;
+}
+.info{
+    width: 50%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info-container{
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    padding: 12px 100px;
+    text-align: center;
+}
+.info-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+.info-heading{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: Vollkorn, serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic;
+    font-weight: 400;
+}
+.info-summary{
+    margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #5c5c5c;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+.info input{
+    padding: 15px 35px;
+    border: 2px solid black;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    transition: 0.2s ease-in;
+}
+.info input:hover{
+    cursor: pointer;
+    background-color: #333;
+    border-color: #333;
+    color: white;
+}
+/* CUP OF COFFEE SECTION*/
+.coffee-bicycle-brainstorm-video{
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+.c-b-b-b-v h1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+.c-b-b-b-v h3{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-family: Vollkorn, serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-style: italic;
+    font-weight: 400;
+}
+/* BRANDING SECTION*/
+.branding-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+    text-align: center;
+}
+.branding-content{
+    padding: 25px 30px 40px 30px;
+    background-color: whitesmoke;
+}
+.branding-content img{
+    width: 125px;
+}
+.branding-content h1{
+    font-family: Montserrat, sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.branding-content p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #5c5c5c;
+}
+.client-testimonial{
+    width: 85%;
+    text-align: center;
+    margin: 100px auto;
+}
+.client-testimonial h1, .creation-contents h1, .form-title h1{
+    font-family: Montserrat, sans-serif;
+    line-height: 40px;
+    /* color: #333; */
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+.client-testimonial h6, .creation-contents h6, .form-title h6{
+    font-family: Vollkorn, serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 30px;
+}
+.client-testimonial p{
+    font-style: italic;
+    font-size: 18px;
+    color: #333;
+}
+/*latest creation section*/
+.latest-creation-section{
+    display: flex;
+    gap: 20px;
+}
+.creation-contents{
+    width: 25%;
+}
+.creation-contents img{
+    width: 100%;
+    min-height: 100%;
+}
+/* FORM DETAILS*/
+.form-content{
+    text-align: center;
+    padding: 70px 0px;
+}
+.form-details{
+    margin-top: 70px;
+}
+.form-details h4{
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.form-details-input , textarea{
+    width: 45%;
+    height: 35px;
+    font-family: Montserrat, sans-serif;
+    padding: 10px 10px;
+    margin-bottom: 25px;
+    border: 1px solid gray;
+    opacity: 0.8;
+    font-size: 12.5px;
+    vertical-align: middle;
+}
+textarea{
+    height: 50px;
+}
+input.submit-btn{
+    padding: 15px 35px;
+    border: 2px solid gray;
+    background-color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    transition: 0.2s ease-in;
+}
+input.submit-btn:hover{
+    cursor: pointer;
+    background-color: #333;
+    border-color: #333;
+    color: white;
+}
+/* FOOTER*/
+/*DONT CHANGE UPPER CODE NOW*/
+.footer{
+    background-color: #242424;
+    color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 50px 50px;
+}
+.footer-content{
+    width: 25%;
+    font-size: 15px;
+    overflow: hidden;
+}
+.footer-content h6{
+    color: #5c5c5c;
+    font-size: 15px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.footer-content p{
+    margin-bottom: 10px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    /* font-size: 15px; */
+    margin-bottom: 10px;
+}
+
+
+
+/* media 991*/
+@media (max-width: 991px) {
+    /*LOGO AND NAVBAR*/
+    .logo img{
+        max-width: 60px;
+    }
+    /*MID CONTENT*/
+    .mid-content{
+        margin-top: 140px;
+    }
+    .mid-content h1{
+        font-size: 50px;
+    }
+    .mid-content h4{
+        font-size: 15px;
+    }
+    /* 4 SQUARE BOX*/
+    .info-container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .info-title{
+        font-size: 32px;
+        line-height: 31px;
+    }
+    .info-heading{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .info-summary{
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .info input{
+        margin-top: 10px;
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+    /* CUP OF COFFEE SECTION*/
+    /* BRANDING SECTION*/
+    .branding-content{
+        padding-bottom: 50px;
+    }
+    .branding-content img{
+        width: 115px;
+    }
+    .branding-content h1{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .branding-content p{
+        font-size: 12px;
+    }
+    /*latest creation section*/
+    .creation-contents h1{
+        font-size: 35px;
+    }
+    .creation-contents h6{
+        font-size: 15px;
+    }
+}
+
+/*media 812*/
+@media (max-width:812px) {
+    /*LOGO AND NAVBAR*/
+    .logo img{
+        max-width: 40px;
+    }
+    .nav-item{
+        display: none;
+    }
+    /*MID CONTENT*/
+    .mid-content{
+        margin-top: 60px;
+    }
+    .mid-content h1{
+        font-size: 50px;
+    }
+    .mid-content h4{
+        font-size: 15px;
+    }
+    /*4 SQUARE BOX*/
+    .info-graphics{
+        gap: 15px;
+    }
+    .info-container{
+        padding: 10px 25px;
+    }
+    .info-title{
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .info-heading{
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+    .info-summary{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .info input{
+        margin-top: 10px;
+        font-size: 10px;
+        cursor: pointer;
+        padding: 5px 9px;
+    }
+    /* CUP OF COFFEE SECTION*/
+    .coffee-bicycle-brainstorm-video{
+        justify-content: space-between;
+        padding: 30px 0px;
+    }
+    .c-b-b-b-v h1{
+        font-size: 40px;
+    }
+    .c-b-b-b-v h3{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    /* BRANDING SECTION*/
+    .branding-content h1{
+        font-size: 28px;
+    }
+    /*latest creation section*/
+    .creation-contents h1{
+        font-size: 32px;
+    }
+    .creation-contents h6{
+        font-size: 14px;
+    }
+    /*footer*/
+    .footer-content{
+        font-size: 13px;
+    }
+    .footer-content h6{
+        font-size: 13px;
+    }
+}
+/* media 710*/
+@media (max-width: 710px) {
+    .branding-section{
+        display: block;
+    }
+    .branding-content{
+        margin-top: 20px;
+    }
+    /*latest creation section*/
+    .creation-contents h1{
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .creation-contents h6{
+        font-size: 13px;
+    }
+    .form-details-input , textarea{
+        width: 80%;
+        height: 35px;
+        font-family: Montserrat, sans-serif;
+        padding: 10px 10px;
+        margin-bottom: 25px;
+        border: 1px solid gray;
+        opacity: 0.8;
+        font-size: 12.5px;
+        vertical-align: middle;
+    }
+    textarea{
+        height: auto;
+    }
+}
+
+/*media 562*/
+@media (max-width:562px) {
+    /*MID CONTENT*/
+    .mid-content{
+        margin-top: 75px;
+    }
+    .mid-content h1{
+        font-size: 40px;
+    }
+    .mid-content h4{
+        font-size: 12px;
+    }
+    /* 4 SQUARE BOX*/
+    .info-graphics{
+        display: block;
+        /* padding-top: 10px; */
+    }
+    .graphic{
+        width: 100%;
+        overflow: hidden;
+        height: 250px; 
+    }
+    .info{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    /* CUP OF COFFEE SECTION*/
+    .coffee-bicycle-brainstorm-video{
+        display: block;
+    }
+    .c-b-b-b-v{
+        display: inline-block;
+        width: 45%;
+    }
+    /* BRANDING SECTION*/
+    /*latest creation section*/
+    .latest-creation-section{
+        display: grid;
+        /* flex-wrap: wrap; */
+        /* grid-template-columns:  repeat(2, 47.5%); */
+        grid-template-columns:  repeat(2, 1fr);
+        grid-template-rows:  repeat(2, 1fr);
+        /* gap: 20px; */
+    }
+    .creation-contents{
+        /* width: 47.8%; */
+        width: 100%;
+        /* flex-grow: 1; */
+    }   
+    .creation-contents img{
+        width: 100%;
+        /* height: auto; */
+        min-height: 100%;
+    }
+    .creation-contents h1{
+        font-size: 32px;    
+    }
+    .creation-contents h6{
+        font-size: 17px;
+    }
+    .form-title h1{
+        font-size: 38px;
+    }
+    .form-details h4{
+        font-size: 13px;
+    }
+    input.submit-btn{
+    margin-top: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 9px 13px;;
+    }
+}
+
+/*media 415*/
+@media (max-width:440px) {
+    /*MID CONTENT*/
+    .mid-content h1{
+        font-size: 28px;
+        letter-spacing: -1px;
+    }
+    .mid-content h4{
+        font-size: 11px;
+    }
+    /* 4 SQUARE BOX*/
+    /* CUP OF COFFEE SECTION*/
+    .c-b-b-b-v h1{
+        font-size: 35px;
+    }
+    .c-b-b-b-v h3{
+        font-size: 12px;
+    }
+    /* BRANDING SECTION*/
+    /* .creation-contents h1{
+        font-size: 42px;
+        line-height: 35px;
+    }
+    .creation-contents h6{
+        font-size: 25px;
+    } */
+    /*footer*/
+    .footer{
+        flex-direction: column;
+    }
+    .footer-content{
+        width: 100%;
+        text-align: center;
+    }
+}

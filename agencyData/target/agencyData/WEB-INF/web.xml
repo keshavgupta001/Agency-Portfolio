@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:web="http://xmlns.jcp.org/xml/ns/javaee">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <description></description>
+    <display-name>saveDetailServlet</display-name>
+    <servlet-name>saveDetailServlet</servlet-name>
+    <servlet-class>com.servlets.saveDetailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>saveDetailServlet</servlet-name>
+    <url-pattern>/saveDetailServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
